@@ -43,9 +43,9 @@
 			/>
 		</div>
 		<div class="max-w-screen-md w-full">
-			<div class="mx-8 text-white">
+			<div class="mx-8 text-white mb-8">
 				<h2 class="mb-4 text-2xl">Hourly Weather</h2>
-				<div class="flex gap-8 overflow-x-scroll pb-5">
+				<div class="flex gap-8 overflow-x-scroll pb-5 scrollBarThin">
 					<div
 						v-for="hourData in weatherData.hourly"
 						:key="hourData.dt"
